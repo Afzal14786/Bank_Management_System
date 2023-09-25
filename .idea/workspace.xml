@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d3553aa-6666-444e-aad8-6df450c70e7c" name="Changes" comment="        Bank Management System&#10;This is my first java project, I will try my best to make it more beautiful and some new features,I added only some limited features :&#10;Features of this project :&#10;     1. I will try to add Register and Login Frame and I work on its features like if you are a new user, just click &quot;Register&quot; button and fill the application form for opening account.&#10;     2. After filling all the information you will Instance a Unique card number, account number and 6 digit unique pin.&#10;     3. In this project I will try to manage the transaction details, and deposit money, withdraw money, changing pin,Fast Cash or MiniStatement.">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Bank/Management/System/BalanceEnquiry.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Bank/Management/System/ChangePin.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Bank/Management/System/Deposit.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Bank/Management/System/FastCash.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Bank/Management/System/FinalApplicationForm.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Bank/Management/System/Login.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Bank/Management/System/LoginFrame.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Bank/Management/System/MainInterface.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Bank/Management/System/MiniStatement.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Bank/Management/System/SignUp.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Bank/Management/System/SignUpPage2.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Bank/Management/System/SignUpPage3.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Bank/Management/System/WelcomeFrame.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Bank/Management/System/Withdraw.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2Vd53FctYMOTBYxHlJG3KgnQwBY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Notification.DisplayName-DoNotAsk-Configure Kotlin in Project": "Kotlin project configuration required",
+    "Notification.DoNotAsk-Configure Kotlin in Project": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/mdafz/Desktop/JarFiles/Bank Management System/mysql-connector-java-8.0.28",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Login">
+    <configuration name="FinalApplicationForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bank.Management.System.FinalApplicationForm" />
+      <module name="Bank Management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bank.Management.System.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bank.Management.System.Login" />
+      <module name="Bank Management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bank.Management.System.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bank.Management.System.MainInterface" />
+      <module name="Bank Management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bank.Management.System.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bank.Management.System.SignUp" />
+      <module name="Bank Management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bank.Management.System.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WelcomeFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bank.Management.System.WelcomeFrame" />
+      <module name="Bank Management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bank.Management.System.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Login" />
+        <item itemvalue="Application.WelcomeFrame" />
+        <item itemvalue="Application.MainInterface" />
+        <item itemvalue="Application.FinalApplicationForm" />
+        <item itemvalue="Application.SignUp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d3553aa-6666-444e-aad8-6df450c70e7c" name="Changes" comment="" />
+      <created>1695152922510</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695152922510</updated>
+    </task>
+    <task id="LOCAL-00001" summary="        Bank Management System&#10;This is my first java project, I will try my best to make it more beautiful and some new features,I added only some limited features :&#10;Features of this project :&#10;     1. I will try to add Register and Login Frame and I work on its features like if you are a new user, just click &quot;Register&quot; button and fill the application form for opening account.&#10;     2. After filling all the information you will Instance a Unique card number, account number and 6 digit unique pin.&#10;     3. In this project I will try to manage the transaction details, and deposit money, withdraw money, changing pin,Fast Cash or MiniStatement.">
+      <option name="closed" value="true" />
+      <created>1695661394923</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695661394938</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="        Bank Management System&#10;This is my first java project, I will try my best to make it more beautiful and some new features,I added only some limited features :&#10;Features of this project :&#10;     1. I will try to add Register and Login Frame and I work on its features like if you are a new user, just click &quot;Register&quot; button and fill the application form for opening account.&#10;     2. After filling all the information you will Instance a Unique card number, account number and 6 digit unique pin.&#10;     3. In this project I will try to manage the transaction details, and deposit money, withdraw money, changing pin,Fast Cash or MiniStatement." />
+    <option name="LAST_COMMIT_MESSAGE" value="        Bank Management System&#10;This is my first java project, I will try my best to make it more beautiful and some new features,I added only some limited features :&#10;Features of this project :&#10;     1. I will try to add Register and Login Frame and I work on its features like if you are a new user, just click &quot;Register&quot; button and fill the application form for opening account.&#10;     2. After filling all the information you will Instance a Unique card number, account number and 6 digit unique pin.&#10;     3. In this project I will try to manage the transaction details, and deposit money, withdraw money, changing pin,Fast Cash or MiniStatement." />
+  </component>
+</project>
