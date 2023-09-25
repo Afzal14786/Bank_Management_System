@@ -122,7 +122,7 @@ public class MainInterface extends JFrame implements ActionListener{
                 new MiniStatement(pin_no);
             } else if (e.getSource() == yourInformation) {
                 setVisible(false);
-                new WelcomeFrame(pin_no);
+                new CustomerDetails(pin_no);
             }
         } catch (Exception exception) {
             JOptionPane.showMessageDialog(null, "@error: " + exception);

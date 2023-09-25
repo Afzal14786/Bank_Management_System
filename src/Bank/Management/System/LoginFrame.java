@@ -1,8 +1,5 @@
 package Bank.Management.System;
 
-import com.mysql.cj.log.Log;
-
-import javax.management.remote.SubjectDelegationPermission;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

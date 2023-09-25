@@ -1,7 +1,5 @@
 package Bank.Management.System;
 
-import com.mysql.cj.protocol.Resultset;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

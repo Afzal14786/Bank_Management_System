@@ -6,14 +6,14 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.ResultSet;
 
-public class WelcomeFrame extends JFrame implements ActionListener{
+public class CustomerDetails extends JFrame implements ActionListener{
 
     JLabel heading, name,accountType, accountNumber, cardNumber,pinNo,
-            firstLogin,information, description, ifsc;
-    JButton login;
+            information, description, ifsc;
+    JButton back;
     String pin_no;
 
-    WelcomeFrame(String pin_no) {
+    CustomerDetails(String pin_no) {
         super("Welcome");
         this.pin_no = pin_no;
 
@@ -80,13 +80,6 @@ public class WelcomeFrame extends JFrame implements ActionListener{
         description.setBounds(80,420,700,30);
         add(description);
 
-        firstLogin = new JLabel("<html>If You Just Register Your Self \n"+
-                "Kindly Login Your Self Using Your Card Number And Pin Number \n"+
-                "And Make Your First Deposit, ThankYou  🙏 <html>");
-        firstLogin.setFont(new Font("cursive", Font.ITALIC,14));
-        firstLogin.setForeground(Color.CYAN);
-        firstLogin.setBounds(80,460,700,100);
-        add(firstLogin);
 
         try {
             Cons connection = new Cons();
@@ -119,32 +112,35 @@ public class WelcomeFrame extends JFrame implements ActionListener{
             e.printStackTrace();
         }
 
+        back = new JButton("BACK");
+        back.setFont(new Font("Arial", Font.BOLD,18));
+        back.setForeground(Color.BLACK);
+        back.setBackground(Color.GRAY);
+        back.setBounds(600,580,100,30);
+        back.addActionListener(this);
+        add(back);
 
-        login = new JButton("LOGIN");
-        login.setFont(new Font("Arial", Font.BOLD,18));
-        login.setForeground(Color.BLACK);
-        login.setBackground(Color.GRAY);
-        login.setBounds(600,580,100,30);
-        login.addActionListener(this);
-        add(login);
 
         getContentPane().setBackground(new Color(0x03032C));
         setSize(800,700);
         setLocation(150,0);
         setLayout(null);
         setVisible(true);
+
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        if (e.getSource() == login) {
+        if (e.getSource()==back) {
             setVisible(false);
-            new Login(pin_no);
+            new MainInterface(pin_no);
         }
+        
     }
-
 
     public static void main(String[] args) {
-        new WelcomeFrame("");
+
+        new CustomerDetails("");
     }
+    
 }
