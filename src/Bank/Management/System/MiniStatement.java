@@ -24,8 +24,9 @@ public class MiniStatement extends JFrame implements ActionListener {
             name.setFont(new Font("Realway",Font.BOLD,18));
             add(name);
 
-            JLabel cardNo = new JLabel();
-            cardNo.setBounds(20,80,300,30);
+            JLabel cardNo = new JLabel("Card No :");
+            cardNo.setBounds(20,60,300,30);
+            cardNo.setFont(new Font("Realway", Font.BOLD, 16));
             add(cardNo);
 
             JLabel lable1 = new JLabel();
@@ -49,9 +50,9 @@ public class MiniStatement extends JFrame implements ActionListener {
 
             try {
                 Cons connection = new Cons();
-                ResultSet resultSet = connection.statement.executeQuery("select * from Login where pin_no='"+pin_no+"'");
+                ResultSet resultSet = connection.statement.executeQuery("select * from Login;");
                 while (resultSet.next()) {
-                    cardNo.setText("Card No : " + resultSet.getString("card_number").substring(0,4) + "XXXXXXXX" + resultSet.getString("card_number").substring(12));
+                    cardNo.setText("<html><b>"+"Card No : " + resultSet.getString(1).substring(0,4) + "XXXXXXXX" + resultSet.getString("card_number").substring(12)+ "</b>" + "</html>");
                 }
              } catch (Exception e) {
                 JOptionPane.showMessageDialog(null, "@error: " + e);
