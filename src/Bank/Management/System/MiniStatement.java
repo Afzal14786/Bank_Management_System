@@ -47,12 +47,12 @@ public class MiniStatement extends JFrame implements ActionListener {
                 JOptionPane.showMessageDialog(null, "@error: " + exception);
                 return;
             }
-
+            
             try {
                 Cons connection = new Cons();
                 ResultSet resultSet = connection.statement.executeQuery("select * from Login;");
                 while (resultSet.next()) {
-                    cardNo.setText("<html><b>"+"Card No : " + resultSet.getString(1).substring(0,4) + "XXXXXXXX" + resultSet.getString("card_number").substring(12)+ "</b>" + "</html>");
+                    cardNo.setText("Card No : " + resultSet.getString(1).substring(0,4) + " - " + "XXXX - XXXX" + " - " +resultSet.getString("card_number").substring(12));
                 }
              } catch (Exception e) {
                 JOptionPane.showMessageDialog(null, "@error: " + e);
@@ -85,7 +85,6 @@ public class MiniStatement extends JFrame implements ActionListener {
             exit.setBounds(140,600,100,30);
             exit.addActionListener(this);
             add(exit);
-
 
             getContentPane().setBackground(new Color(201, 97, 243));
             setLayout(null);

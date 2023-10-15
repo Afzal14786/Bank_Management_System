@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d3553aa-6666-444e-aad8-6df450c70e7c" name="Changes" comment="        Bank Management System&#10;This is my first java project, I will try my best to make it more beautiful and some new features,I added only some limited features :&#10;Features of this project :&#10;     1. I will try to add Register and Login Frame and I work on its features like if you are a new user, just click &quot;Register&quot; button and fill the application form for opening account.&#10;     2. After filling all the information you will Instance a Unique card number, account number and 6 digit unique pin.&#10;     3. In this project I will try to manage the transaction details, and deposit money, withdraw money, changing pin,Fast Cash or MiniStatement.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bank/Management/System/MiniStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/Management/System/MiniStatement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
