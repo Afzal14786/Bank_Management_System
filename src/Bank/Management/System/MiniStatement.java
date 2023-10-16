@@ -47,7 +47,7 @@ public class MiniStatement extends JFrame implements ActionListener {
                 JOptionPane.showMessageDialog(null, "@error: " + exception);
                 return;
             }
-            
+
             try {
                 Cons connection = new Cons();
                 ResultSet resultSet = connection.statement.executeQuery("select * from Login;");

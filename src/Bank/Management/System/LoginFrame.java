@@ -123,7 +123,7 @@ public class LoginFrame extends JFrame implements ActionListener {
                     setVisible(false);
                     new MainInterface(pin_No);
                 } else {
-                    if (!card_number.equals(card_number) || pin_number.equals(pin_number)) {
+                    if (!card_number.equals(card_number) || !pin_number.equals(pin_number)) {
                         JOptionPane.showMessageDialog(null, "Wrong Card Number or Pin Number\n Kindly Check And\n Re-Enter Your Card Number & Pin Number");
                         return;
                     }
